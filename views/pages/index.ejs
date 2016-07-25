@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Chat</title>
+</head>
+<body>
+	<div id="content" style='width: 500px; height: 300px; margin: 0 0 20px 0; border: solid 1px #999; overflow-y: scroll;'>
+	</div>
+	<div class="cotnrols">
+		<input type="text" id="username" style='width:350px;' placeholder="Username"></input> <br><br>
+		<form id="form">
+		<input type="text" id="field" style='width:350px;' placeholder="Enter message here"></input>
+		<button id="send">Send</button>
+		</form>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/chat.js"></script>
+<script type="text/javascript" src="/socket.io/socket.io.js"></script>
